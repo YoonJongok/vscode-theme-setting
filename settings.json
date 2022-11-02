@@ -1,0 +1,184 @@
+{
+	"prettier.useTabs": true,
+	"editor.mouseWheelZoom": false,
+	"editor.codeActionsOnSave": {
+		"source.sortImports": true
+	},
+	"[css]": {
+		"editor.suggest.insertMode": "replace"
+	},
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"terminal.external.osxExec": " iTerm.app",
+	// "terminal.integrated.fontFamily": "monospace",
+	"liveServer.settings.donotShowInfoMsg": true,
+	"explorer.confirmDragAndDrop": false,
+	"explorer.openEditors.visible": 0,
+	// "editor.fontFamily": "D2Coding ligature, Consolas, 'Courier New', monospace",
+	"gitlens.advanced.messages": {
+		"suppressLineUncommittedWarning": true
+	},
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact",
+		"postcss": "css"
+	},
+	"emmet.syntaxProfiles": {
+		"postcss": "css"
+	},
+	"editor.tokenColorCustomizations": {
+		"comments": "#ffc2c2"
+	},
+	"[prisma]": {
+		"editor.defaultFormatter": "Prisma.prisma"
+	},
+	"python.pythonPath": "/usr/local/bin/pytshon3",
+	"terminal.integrated.inheritEnv": false,
+	"editor.suggestSelection": "first",
+	"python.languageServer": "Pylance",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"workbench.editorAssociations": {
+		"*.xlsx": "cweijan.officeViewer"
+	},
+	"debug.onTaskErrors": "debugAnyway",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"javascript.preferences.importModuleSpecifier": "relative",
+	"typescript.preferences.importModuleSpecifier": "relative",
+	"js/ts.implicitProjectConfig.strictNullChecks": true,
+	"files.exclude": {
+		"**/.classpath": true,
+		"**/.project": true,
+		"**/.settings": true,
+		"**/.factorypath": true
+	},
+	"security.workspace.trust.untrustedFiles": "open",
+	"go.toolsManagement.autoUpdate": true,
+	"[go]": {
+		"editor.insertSpaces": true,
+		"editor.formatOnSave": true,
+		"editor.defaultFormatter": "golang.go"
+	},
+	"editor.formatOnSave": true,
+	"[python]": {
+		"editor.formatOnSave": true
+	},
+	"editor.bracketPairColorization.enabled": true,
+	"editor.guides.bracketPairs": true,
+	"editor.largeFileOptimizations": false,
+	"editor.guides.bracketPairsHorizontal": true,
+	"vim.easymotion": true,
+	"vim.incsearch": true,
+	"vim.useSystemClipboard": true,
+	"vim.useCtrlKeys": true,
+	"vim.hlsearch": true,
+	"vim.insertModeKeyBindings": [
+		{
+			"before": ["j", "k"],
+			"after": ["<Esc>"]
+		}
+	],
+	"vim.normalModeKeyBindingsNonRecursive": [
+		{
+			"before": ["<leader>", "d"],
+			"after": ["d", "d"]
+		},
+		{
+			"before": ["<C-n>"],
+			"commands": [":nohl"]
+		},
+		{
+			"before": ["K"],
+			"commands": ["lineBreakInsert"],
+			"silent": true
+		},
+		{
+			"before": [":"],
+			"commands": ["workbench.action.showCommands"]
+		}
+	],
+	"vim.leader": "<space>",
+	"vim.handleKeys": {
+		"<C-a>": false,
+		"<C-f>": false
+	},
+	"vim.visualModeKeyBindingsNonRecursive": [
+		{
+			"before": [">"],
+			"commands": ["editor.action.indentLines"]
+		},
+		{
+			"before": ["<"],
+			"commands": ["editor.action.outdentLines"]
+		},
+		{
+			"before": ["p"],
+			"after": ["p", "g", "v", "y"]
+		}
+	],
+	"vim.statusBarColorControl": true,
+	"vim.statusBarColors.normal": ["#8FBCBB", "#000"],
+	"vim.statusBarColors.insert": ["#BF616A", "#000"],
+	"vim.statusBarColors.visual": ["#B48EAD", "#000"],
+	"vim.statusBarColors.visualline": ["#B48EAD", "#000"],
+	"vim.statusBarColors.visualblock": ["#A3BE8C", "#000"],
+	"vim.statusBarColors.replace": "#D08770",
+	"vim.statusBarColors.commandlineinprogress": "#007ACC",
+	"vim.statusBarColors.searchinprogressmode": "#007ACC",
+	"vim.statusBarColors.easymotionmode": "#007ACC",
+	"vim.statusBarColors.easymotioninputmode": "#007ACC",
+	"vim.statusBarColors.surroundinputmode": "#007ACC",
+	"workbench.colorCustomizations": {
+		"statusBar.background": "#8FBCBB",
+		"statusBar.noFolderBackground": "#8FBCBB",
+		"statusBar.debuggingBackground": "#8FBCBB",
+		"statusBar.foreground": "#000",
+		"statusBar.debuggingForeground": "#000",
+		"activityBar.activeBackground": "#fbed80",
+		"activityBar.activeBorder": "#422c74",
+		"activityBar.background": "#fbed80",
+		"activityBar.foreground": "#15202b",
+		"activityBar.inactiveForeground": "#15202b99",
+		"activityBarBadge.background": "#06b9a5",
+		"activityBarBadge.foreground": "#15202b",
+		"sash.hoverBorder": "#fbed80",
+		"statusBarItem.hoverBackground": "#f7df1e",
+		"statusBarItem.remoteBackground": "#f9e64f",
+		"statusBarItem.remoteForeground": "#15202b",
+		"titleBar.activeBackground": "#f9e64f",
+		"titleBar.activeForeground": "#15202b",
+		"titleBar.inactiveBackground": "#f9e64f99",
+		"titleBar.inactiveForeground": "#15202b99",
+		"commandCenter.border": "#15202b99"
+	},
+	"tabnine.experimentalAutoImports": true,
+	"themeswitcher.utcOffset": 1,
+	"themeswitcher.mappings": [
+		{
+			"time": "07:00",
+			"theme": "Noctis Lilac"
+		},
+		{
+			"time": "17:00",
+			"theme": "Andromeda Bordered"
+		}
+	],
+	"workbench.sideBar.location": "right",
+	"files.autoSave": "onFocusChange",
+	// "vscode_custom_css.imports": [
+	// 	"file:///Users/yoonjongok/.vscode/extensions/codevars.outrun-meets-synthwave-0.0.1/synthWaveStyles.css"
+	// ],
+	"editor.fontLigatures": true,
+	"workbench.tree.indent": 20,
+	"editor.fontFamily": "\"Fira Code\",\"mononoki Nerd Font\", Menlo, Monaco, 'Courier New', monospace",
+	"editor.cursorSmoothCaretAnimation": true,
+	"editor.cursorBlinking": "expand",
+	"editor.lineHeight": 2.5,
+	"editor.fontWeight": "normal",
+	"editor.cursorStyle": "block-outline",
+	// "terminal.external.linuxExec": "iterm",
+	"terminal.integrated.fontSize": 16,
+	"editor.fontSize": 14,
+	"workbench.iconTheme": "bearded-icons",
+	"editor.wordWrap": "on",
+	"svelte.enable-ts-plugin": true,
+	"svelte.plugin.svelte.note-new-transformation": false,
+	"workbench.colorTheme": "Outrun Electric Meets Synthwave"
+}
